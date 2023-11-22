@@ -1,0 +1,37 @@
+/* Last.css */
+
+.footer {
+    background-color: #2e2e2e; /* Dark background color, similar to the navbar */
+    color: rgb(255, 255, 255); /* Text color */
+    padding: 20px 0; /* Add padding to the top and bottom */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .team-members {
+    margin-right: 20px;
+  }
+  
+  .team-members p {
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  .copyright {
+    text-align: right;
+  }
+  

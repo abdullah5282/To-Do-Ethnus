@@ -1,0 +1,16 @@
+.navbar{
+    background: #003950;
+  ;
+  
+  }
+  .nav-link{
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 0.95rem;
+   
+  }
+  .nav-link:hover{
+    color: rgb(129, 125, 125);
+  }
+  

@@ -6,7 +6,7 @@ const bodyParser = require("body-parser")
 const cors = require("cors")
 mongoose.set("strictQuery", true);
 mongoose.connect(
-  "mongodb+srv://mayank123:mayank123@cluster0.hfooxct.mongodb.net/taskdb"
+mongodburl= "mongodb+srv://mayank123:mayank123@cluster0.hfooxct.mongodb.net/taskdb"
 );
 var db = mongoose.connection;
 db.on("open", () => console.log("Connected to Db"));

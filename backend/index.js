@@ -4,7 +4,7 @@ const app = express();
 const taskRoute = require("./controller/taskRoute")
 const bodyParser = require("body-parser")
 const cors = require("cors")
-// mongoose.set("strictQuery", true);0
+mongoose.set("strictQuery", true);
 require("dotenv").config();
 const PORT = process.env.PORT || 4000
 // mongoose.connect(

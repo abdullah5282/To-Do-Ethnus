@@ -18,14 +18,18 @@ function TaskForm(props) {
   };
 
   return (
-    <section>
+    <section style={{backgroundColor:"rgb(148, 216, 227)"}}>
+      
       <div
-        className="form my-4"
+        className="form-my-4"
         style={{
           display: "flex",
+          // margin: "0",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
+          // backgroundColor:"chocolate"
+          
         }}
       >
         <h2 className="backs">

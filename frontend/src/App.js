@@ -19,8 +19,10 @@ import Signup from "./components/Signup";
 
 
 function App() {
+
   return (
-    <section class="backs"> 
+
+<section class="backs"> 
       <HashRouter>
       
       <Routes>

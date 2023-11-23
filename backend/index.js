@@ -6,6 +6,7 @@ const bodyParser = require("body-parser")
 const cors = require("cors")
 // mongoose.set("strictQuery", true);0
 require("dotenv").config();
+const PORT = process.env.PORT || 4000
 // mongoose.connect(
 // // mongodburl= "mongodb+srv://mayank123:mayank123@cluster0.hfooxct.mongodb.net/taskdb"
 // );
@@ -25,6 +26,7 @@ app.use("/taskRoute", taskRoute);
 
 
 
-app.listen(4000, () => {
-  console.log("Server started at 4000");
-});
+// app.listen(4000, () => {
+//   console.log("Server started at 4000");
+// });
+app.listen(PORT, () => console.log(`Listening at ${PORT}...`));

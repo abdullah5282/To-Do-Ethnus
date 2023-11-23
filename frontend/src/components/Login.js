@@ -5,6 +5,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import InputControl from "./InputControl";
 
 import { auth } from "./firebase";
+// import { getAuth } from "firebase/auth";
 
 import styles from "./Login.module.css";
 
